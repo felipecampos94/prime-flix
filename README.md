@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Prime Flix - Aplicação React para Estudos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de aplicação web chamada Prime Flix, desenvolvida em React, destinada a fins educacionais e de aprendizado. A aplicação tem como objetivo principal consumir a API de filmes do The Movie Database (TMDb) para exibir informações sobre filmes e permitir que os usuários armazenem registros localmente, utilizando o LocalStorage do navegador para persistência de dados.
 
-## Available Scripts
+## Funcionalidades Principais
 
-In the project directory, you can run:
+- **Pesquisa de Filmes**: Os usuários podem pesquisar filmes na API do TMDb e visualizar detalhes como título, sinopse, avaliação, entre outros.
+  
+- **Armazenamento Local**: A aplicação permite que os usuários armazenem registros localmente, como favoritos, histórico de visualização, ou qualquer outra informação relevante para o usuário. Esses dados são armazenados no LocalStorage do navegador.
 
-### `npm start`
+- **Exclusão de Registros**: Os usuários podem excluir registros armazenados localmente conforme necessário, proporcionando uma experiência de usuário flexível e personalizável.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Utilizar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para utilizar a aplicação Prime Flix, siga estas etapas:
 
-### `npm test`
+1. Clone este repositório para o seu ambiente local.
+2. Navegue até o diretório raiz da aplicação.
+3. Execute `npm install` para instalar as dependências necessárias.
+4. Execute `npm start` para iniciar a aplicação em um ambiente de desenvolvimento local.
+5. Acesse a aplicação em seu navegador através do endereço fornecido pelo servidor de desenvolvimento.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Certifique-se de ter uma conexão com a internet ativa para permitir o acesso à API do TMDb para buscar informações sobre os filmes.
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**: Biblioteca JavaScript para a construção da interface de usuário.
+- **The Movie Database (TMDb) API**: Fonte de dados para informações sobre filmes.
+- **LocalStorage**: Recurso do navegador utilizado para armazenamento local de dados.
